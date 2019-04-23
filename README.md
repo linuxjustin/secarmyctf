@@ -286,6 +286,9 @@ Type **admin** in [Textbox](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/m
 <br>
 <br>   
 
+6) Fatherphp
+
+https://github.com/linuxjustin/secarmyctf/blob/master/fatherphpsolution.py
 
 **Forensic**:
 
